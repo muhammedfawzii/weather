@@ -1,0 +1,94 @@
+body{
+    background-image: url(../img/pexels-goldcircuits-2559484.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+nav li a{
+    transition: all 1s !important;
+}
+
+nav li a:hover{
+    border: 1px solid #09c;
+    border-radius: 40px;
+    color: #09c !important;
+    transform: scale(0.7);
+}
+
+header input{
+    background-color: #262936;
+    border: 2px solid black;
+    transition: all 0.8s;
+    color: white;
+}
+header input:focus{
+    outline: none;
+    border: 2px solid #09c;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.509);
+    padding: 10px;
+}
+footer{
+    background-color: #262936;
+    height: 30vh;
+}
+footer input{
+    background-color: #262936;
+    border: 2px solid black;
+    transition: all 0.8s;
+    color: white;
+}
+footer input:focus{
+    outline: none;
+    border: 2px solid #09c;
+}
+footer input::placeholder{
+    color: rgba(0, 0, 0, 0.554);
+    padding: 10px;
+}
+footer .mx-auto div{
+    /* background-color: red; */
+}
+footer .fb-icon i{
+    font-size: 17px;
+    /* border-radius: 50%; */
+    color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #09c;
+    transition: all 0.5s;
+    
+}
+footer .fb-icon i:hover{
+    color: #09c;
+    background-color: #262936;
+}
+
+@media (max-width: 992px) {
+   nav li{
+    text-align: center;
+    border: none;
+    
+   }
+   nav li a:hover{
+    border: none;
+    border-bottom: 1px solid #09c;
+    
+   }
+}
+.change{
+    width: 50px;
+    /* border: 2px solid #09c; */
+    border-radius: 15px;
+}
+button.navbar-toggler {
+    border: 1px solid yellow;
+}
+.color{
+    color: rgba(255, 255, 255, 0.524);
+}
